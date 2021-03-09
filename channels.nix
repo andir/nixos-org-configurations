@@ -23,6 +23,10 @@ rec {
         job = "nixos/release-20.09/tested";
         current = true;
       };
+      "nixos-20.09-aarch64" = {
+        job = "nixos/release-20.09-aarch64/tested";
+        current = true;
+      };
       "nixos-20.09-small" = {
         job = "nixos/release-20.09-small/tested";
         current = true;
